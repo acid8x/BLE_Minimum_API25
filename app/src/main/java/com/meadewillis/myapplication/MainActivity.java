@@ -29,6 +29,7 @@ import java.util.UUID;
 
 public class MainActivity extends Activity {
 
+    private static final String CONNECT_TO = "CC41-A"; // NAME OF THE DEVICE YOU WANT TO CONNECT TO
 
     public final static UUID UUID_BLE_HM10_RX_TX = UUID.fromString("0000ffe1-0000-1000-8000-00805f9b34fb"); // CHARACTERISTIC UUID FROM SERVICE
     public final static UUID UUID_BLE_HM10_SERVICE = UUID.fromString("0000ffe0-0000-1000-8000-00805f9b34fb"); // SERVICE UUID
